@@ -34,7 +34,7 @@
 		<h1 class="drac-text drac-text-cyan-green drac-text-bold">Vyber server:</h1>
 		<br><br>
 		<div style="position: relative">
-			<select class="drac-select drac-select-white" bind:value={option} on:change={vyber}>
+			<select class="drac-select drac-select-white " bind:value={option} on:change={vyber}>
 			  <option value={0} >1.20 (jun 2023)</option>
 			  <option value={1}>1.19.4 (marec asi 2023)</option>
 			  <option value={2}>1.19.2 (september 2022)</option>
@@ -96,6 +96,9 @@
 </section>
 
 <style>
+	a {
+		color: #7FFFD4;
+	}
 	section {
 		display: flex;
 		flex-direction: column;
