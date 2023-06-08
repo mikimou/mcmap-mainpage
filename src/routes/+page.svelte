@@ -24,7 +24,7 @@
 
 	<div style="height: 2em"></div>
 	
-	<button on:click={redirectt} class="drac-btn drac-bg-pink-purple drac-m-sm drac-btn-lg">Generovať</button>
+	
 
 	<div style="height: 6em"></div>	
 </section>

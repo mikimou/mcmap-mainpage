@@ -1,0 +1,12 @@
+{
+	"/": [
+		"src/routes/+page.js"
+	],
+	"/api": [
+		"src/routes/api/+page.js",
+		"src/routes/api/+page.server.js"
+	],
+	"/backend": [
+		"src/routes/backend/+server.js"
+	]
+}
