@@ -85,6 +85,14 @@
 		{:else if option === 2}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">old</p><br><br>
 		{/if}
+		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">Download: </p>
+		{#if option === 0}
+			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">neni</p><br><br>
+		{:else if option === 1}
+			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">neni</p><br><br>
+		{:else if option === 2}
+			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">neni</p><br><br>
+		{/if}
 		
 		
 		</center>
