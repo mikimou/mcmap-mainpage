@@ -31,7 +31,7 @@
 		<!-- <picture>
 			<img src={logo} alt="" />
 		</picture> -->
-		<h1 class="drac-text drac-text-cyan-green">Vyber server:</h1>
+		<h1 class="drac-text drac-text-cyan-green drac-text-bold">Vyber server:</h1>
 		<br><br>
 		<div style="position: relative">
 			<select class="drac-select drac-select-white" bind:value={option} on:change={vyber}>
@@ -54,7 +54,8 @@
 			</div>
 		</div>
 		<div style="height: 6em"></div>
-		<center style="white-space: nowrap;">
+		<center>
+		<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green drac-text-bold">Pripoj sa na server a zadaj prikaz nizsie!</p><br><br><br>
 		<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">IP servera: </p>
 		{#if option >= 0}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">mc.michalhicz.eu</p><br><br>
