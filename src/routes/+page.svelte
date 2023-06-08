@@ -68,7 +68,7 @@
 		{:else if option === 2}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.19.2 (kompatibilne s 1.19.2+)</p><br><br>
 		{/if}
-		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">Mapa: </p>
+		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">Web mapa: </p>
 		{#if option === 0}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">ziadna</p><br><br>
 		{:else if option === 1}
