@@ -55,12 +55,12 @@
 		</div>
 		<div style="height: 6em"></div>
 		<center>
-		<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green drac-text-bold">Pripoj sa na server a zadaj prikaz nizsie!</p><br><br><br>
-		<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">IP servera: </p>
+		<p style="display: inline; pointer-events: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green drac-text-bold">Pripoj sa na server a zadaj prikaz nizsie!</p><br><br><br>
+		<p style="display: inline; pointer-events: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">IP servera: </p>
 		{#if option >= 0}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">mc.michalhicz.eu</p><br><br>
 		{/if}
-		<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">MC verzia: </p>
+		<p style="display: inline; pointer-events: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">MC verzia: </p>
 		{#if option === 0}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.20</p><br><br>
 		{:else if option === 1}
@@ -68,7 +68,7 @@
 		{:else if option === 2}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.19.2 (kompatibilne s 1.19.2+)</p><br><br>
 		{/if}
-		<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">Mapa: </p>
+		<p style="display: inline; pointer-events: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">Mapa: </p>
 		{#if option === 0}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">ziadna</p><br><br>
 		{:else if option === 1}
@@ -76,7 +76,7 @@
 		{:else if option === 2}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white"><a href="https://mcmap1.michalhicz.eu/">mcmap1.michalhicz.eu</a></p><br><br>
 		{/if}
-		<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">Prikaz: </p>
+		<p style="display: inline; pointer-events: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">Prikaz: </p>
 		<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">/server</p>
 		{#if option === 0}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">jun</p><br><br>
