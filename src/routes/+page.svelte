@@ -70,7 +70,7 @@
 		{/if}
 		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">Web mapa: </p>
 		{#if option === 0}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">ziadna</p><br><br>
+			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white"><a href="https://mcmap3.michalhicz.eu/">mcmap3.michalhicz.eu</a></p><br><br>
 		{:else if option === 1}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white"><a href="https://mcmap2.michalhicz.eu/">mcmap2.michalhicz.eu</a></p><br><br>
 		{:else if option === 2}
