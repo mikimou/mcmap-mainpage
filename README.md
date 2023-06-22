@@ -1,1 +1,1 @@
-# Web stránka sietovevzdelanie.eu
+# Web portal for my minecraft servers and projects

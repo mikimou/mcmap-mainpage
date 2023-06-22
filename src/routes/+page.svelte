@@ -1,17 +1,4 @@
 <script>
-	import Counter from './Counter.svelte';
-	import logo from '$lib/images/airisp.png';
-	import { redirect } from '@sveltejs/kit';
-
-	async function redirectt() {
-		window.location.assign("/api");
-	}
-
-	let ip="";
-	let mcver="";
-	let mapa="";
-	let prikaz="";
-
 	var option= 0;
 
 	const vyber = () => {
@@ -22,15 +9,12 @@
 
 <svelte:head>
 	<title>MC portal</title>
-	<meta name="description" content="Sieťové vzdelanie" />
+	<meta name="description" content="MC portal" />
 </svelte:head>
 
 <section>
 	
 	<div class="welcome">
-		<!-- <picture>
-			<img src={logo} alt="" />
-		</picture> -->
 		<h1 style="pointer-events: none; user-select: none;" class="drac-text drac-text-cyan-green drac-text-bold">Vyber server:</h1>
 		<br><br>
 		<div style="position: relative">
