@@ -19,7 +19,7 @@
 		<br><br>
 		<div style="position: relative">
 			<select class="drac-select drac-select-white " bind:value={option} on:change={vyber}>
-			  <option value={0} >1.20 (jun 2023)</option>
+			  <option value={0} >1.20.1 (jun 2023)</option>
 			  <option value={1}>1.19.4 (marec asi 2023)</option>
 			  <option value={2}>1.19.2 (september 2022)</option>
 			</select>
@@ -46,7 +46,7 @@
 		{/if}
 		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">MC verzia: </p>
 		{#if option === 0}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.20</p><br><br>
+			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.20.1 (updated 24-jun-2023)</p><br><br>
 		{:else if option === 1}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.19.4 (kompatibilne s 1.19.4+)</p><br><br>
 		{:else if option === 2}
