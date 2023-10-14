@@ -1,5 +1,5 @@
 <script>
-	var option= 0;
+	var option= 1;
 
 	const vyber = () => {
 		option 
@@ -19,8 +19,8 @@
 		<br><br>
 		<div style="position: relative">
 			<select class="drac-select drac-select-white " bind:value={option} on:change={vyber}>
-			  <option value={0} >1.20.1 (jun 2023)</option>
-			  <option value={1}>1.19.4 (marec asi 2023)</option>
+			  <option value={0}>1.20.1 (jun 2023)</option>
+			  <option value={1}>1.20.2 (oktober 2023)</option>
 			  <option value={2}>1.19.2 (september 2022)</option>
 			</select>
 			<div class="drac-select-arrow drac-text-white">
@@ -48,7 +48,7 @@
 		{#if option === 0}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.20.1 (updated 24-jun-2023)</p><br><br>
 		{:else if option === 1}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.19.4 (kompatibilne s 1.19.4+)</p><br><br>
+			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.20.2</p><br><br>
 		{:else if option === 2}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.19.2 (kompatibilne s 1.19.2+)</p><br><br>
 		{/if}
@@ -65,7 +65,7 @@
 		{#if option === 0}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">jun</p><br><br>
 		{:else if option === 1}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">djnacnuty</p><br><br>
+			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">diorgyor</p><br><br>
 		{:else if option === 2}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">old</p><br><br>
 		{/if}
