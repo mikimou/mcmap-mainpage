@@ -17,10 +17,10 @@
 	<div class="welcome">
 		<h1 style="pointer-events: none; user-select: none;" class="drac-text drac-text-cyan-green drac-text-bold">Vyber server:</h1>
 		<br><br>
-		<div style="position: relative">
+		<div style="position: relative;">
 			<select class="drac-select drac-select-white " bind:value={option} on:change={vyber}>
 			  <option value={0}>1.20.1 (jun 2023)</option>
-			  <option value={1}>1.20.2 (oktober 2023)</option>
+			  <option value={1}>1.20.2 (oktober 2023) [new]</option>
 			  <option value={2}>1.19.2 (september 2022)</option>
 			</select>
 			<div class="drac-select-arrow drac-text-white">
@@ -39,43 +39,26 @@
 		</div>
 		<div style="height: 6em"></div>
 		<center>
-		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green drac-text-bold">Pripoj sa na server a zadaj prikaz nizsie!</p><br><br><br>
+		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green drac-text-bold">Ku konkrétnej verzii serveru treba<br> konkrétnu verziu klienta!</p><br><br><br>
 		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">IP servera: </p>
 		{#if option >= 0}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">mc.michalhicz.eu</p><br><br>
 		{/if}
 		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">MC verzia: </p>
 		{#if option === 0}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.20.1 (updated 24-jun-2023)</p><br><br>
+			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.20.1</p><br><br>
 		{:else if option === 1}
 			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.20.2</p><br><br>
 		{:else if option === 2}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.19.2 (kompatibilne s 1.19.2+)</p><br><br>
+			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">1.19.2</p><br><br>
 		{/if}
-		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">Web mapa: </p>
+		
 		{#if option === 0}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white"><a href="https://mcmap3.michalhicz.eu/">mcmap3.michalhicz.eu</a></p><br><br>
+			<a href="https://mcmap3.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
 		{:else if option === 1}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white"><a href="https://mcmap2.michalhicz.eu/">mcmap2.michalhicz.eu</a></p><br><br>
+			<a href="https://mcmap2.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
 		{:else if option === 2}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white"><a href="https://mcmap1.michalhicz.eu/">mcmap1.michalhicz.eu</a></p><br><br>
-		{/if}
-		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">Prikaz: </p>
-		<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">/server</p>
-		{#if option === 0}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">jun</p><br><br>
-		{:else if option === 1}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">diorgyor</p><br><br>
-		{:else if option === 2}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">old</p><br><br>
-		{/if}
-		<p style="display: inline; pointer-events: none; user-select: none;" class="drac-text drac-text-lg drac-line-height drac-text-cyan-green">Download: </p>
-		{#if option === 0}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">neni</p><br><br>
-		{:else if option === 1}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">neni</p><br><br>
-		{:else if option === 2}
-			<p style="display: inline;" class="drac-text drac-text-lg drac-line-height drac-text-white">neni</p><br><br>
+			<a href="https://mcmap1.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
 		{/if}
 		
 		
@@ -89,7 +72,8 @@
 
 <style>
 	a {
-		color: #7FFFD4;
+		color: black;
+		text-decoration: none; 
 	}
 	section {
 		display: flex;
@@ -115,6 +99,7 @@
 		position: relative;
 		padding: 0 0 0 0;
 		align-items: center;
+		max-width: 40em;
 	}
 
 	.welcome img {
