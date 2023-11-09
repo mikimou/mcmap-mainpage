@@ -7,7 +7,7 @@
 		<a style="text-decoration: none; width:5em; height:2em; margin:1em; color:black; " href="https://uptime.michalhicz.eu/status/mc" class="drac-btn drac-bg-cyan-green drac-btn-sm">UPTIME</a>
 	</div>
 	<div class="corner">
-		<a style="float: right; text-decoration: none; width:5em; height:2em; margin:1em; color:black; " href="https://spark.lucko.me/elt6I05yMF" class="drac-btn drac-bg-cyan-green drac-btn-sm">STATS</a>
+		<a style="float: right; text-decoration: none; width:5em; height:2em; margin:1em; color:black; " href="https://mcprofiler.michalhicz.eu/" class="drac-btn drac-bg-cyan-green drac-btn-sm">STATS</a>
 	</div>
 </header>
 
