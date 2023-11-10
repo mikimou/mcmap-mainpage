@@ -54,11 +54,12 @@
 		{/if}
 		
 		{#if option === 0}
-			<a href="https://mcmap3.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
+			<a style="text-decoration: none; width:5em;  margin: 0.5em; color:black; " href="https://mcmap3.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
 		{:else if option === 1}
-			<a href="https://mcmap2.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
+			<a style="text-decoration: none; width:5em;  margin: 0.5em; color:black; " href="https://mcmap2.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
+			<a style="text-decoration: none; width:5em;  margin: 0.5em; color:black; " href="https://mcprofiler.michalhicz.eu/" class="drac-btn drac-bg-cyan-green drac-btn-sm">STATS</a>
 		{:else if option === 2}
-			<a href="https://mcmap1.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
+			<a style="text-decoration: none; width:5em;  margin: 0.5em; color:black; " href="https://mcmap1.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
 		{/if}
 		
 		
