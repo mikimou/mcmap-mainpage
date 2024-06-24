@@ -1,4 +1,5 @@
 <script>
+    import Header from './Header.svelte';
 	import './styles.css';
 	import 'dracula-ui/styles/dracula-ui.css'
 
@@ -8,6 +9,7 @@
 </script>
 
 <div class="app">
+	<Header/>
 	<main>
 		<slot />
 	</main>
@@ -22,6 +24,7 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		background-color: #111217!important;
 	}
 
 	main {
