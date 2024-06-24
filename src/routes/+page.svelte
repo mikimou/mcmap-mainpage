@@ -95,7 +95,8 @@
           style="display: inline;"
           class="drac-text drac-text-lg drac-line-height drac-text-white"
         >
-        <a style="text-decoration: none; width:5em; height:2em; margin:1em; color:black; " href="https://mcmap2.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
+        <a style="text-decoration: none; margin-top:1em; margin-right:0.5em; color:black; " href="https://mcmap2.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
+        <a style="text-decoration: none; margin-top:1em; margin-right:0.5em; color:black; " href="https://mcprofiler.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">STATS</a>
         </p>
         <br /><br />
       {:else if option === 3}
@@ -103,8 +104,9 @@
           style="display: inline;"
           class="drac-text drac-text-lg drac-line-height drac-text-white"
         >
-        <a style="text-decoration: none; width:5em; height:2em; margin:1em; color:black; " href="https://mcmap1.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
-        </p>
+        <a style="text-decoration: none; margin-top:1em; margin-right:0.5em; color:black; " href="https://mcmap1.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
+        <a style="text-decoration: none; margin-top:1em; margin-right:0.5em; color:black; " href="https://mcprofiler2.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">STATS</a>  
+      </p>
         <br /><br />
       {/if}
     </center>
