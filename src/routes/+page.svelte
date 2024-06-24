@@ -1,5 +1,5 @@
 <script>
-  var option = 0;
+  var option = 3;
 
   const vyber = () => {
     option;
@@ -26,9 +26,8 @@
         bind:value={option}
         on:change={vyber}
       >
-        <option value={0}>1.20.1 (jun 2023)</option>
-        <option value={1}>1.19.4 (marec asi 2023)</option>
-        <option value={2}>1.19.2 (september 2022)</option>
+        <option value={0}>1.20.2 (oktober 2023)</option>
+        <option value={3}>1.21 (jun 2024)</option>
       </select>
       <div class="drac-select-arrow drac-text-white">
         <svg
@@ -79,122 +78,32 @@
           style="display: inline;"
           class="drac-text drac-text-lg drac-line-height drac-text-white"
         >
-          1.20.1 (updated 24-jun-2023)
+          1.20.2
         </p>
         <br /><br />
-      {:else if option === 1}
+      {:else if option === 3}
         <p
           style="display: inline;"
           class="drac-text drac-text-lg drac-line-height drac-text-white"
         >
-          1.19.4 (kompatibilne s 1.19.4+)
-        </p>
-        <br /><br />
-      {:else if option === 2}
-        <p
-          style="display: inline;"
-          class="drac-text drac-text-lg drac-line-height drac-text-white"
-        >
-          1.19.2 (kompatibilne s 1.19.2+)
+          1.21
         </p>
         <br /><br />
       {/if}
-      <p
-        style="display: inline; pointer-events: none; user-select: none;"
-        class="drac-text drac-text-lg drac-line-height drac-text-cyan-green"
-      >
-        Web mapa:
-      </p>
       {#if option === 0}
         <p
           style="display: inline;"
           class="drac-text drac-text-lg drac-line-height drac-text-white"
         >
-          <a href="https://mcmap3.michalhicz.eu/">mcmap3.michalhicz.eu</a>
+        <a style="text-decoration: none; width:5em; height:2em; margin:1em; color:black; " href="https://mcmap2.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
         </p>
         <br /><br />
-      {:else if option === 1}
+      {:else if option === 3}
         <p
           style="display: inline;"
           class="drac-text drac-text-lg drac-line-height drac-text-white"
         >
-          <a href="https://mcmap2.michalhicz.eu/">mcmap2.michalhicz.eu</a>
-        </p>
-        <br /><br />
-      {:else if option === 2}
-        <p
-          style="display: inline;"
-          class="drac-text drac-text-lg drac-line-height drac-text-white"
-        >
-          <a href="https://mcmap1.michalhicz.eu/">mcmap1.michalhicz.eu</a>
-        </p>
-        <br /><br />
-      {/if}
-      <p
-        style="display: inline; pointer-events: none; user-select: none;"
-        class="drac-text drac-text-lg drac-line-height drac-text-cyan-green"
-      >
-        Prikaz:
-      </p>
-      <p
-        style="display: inline;"
-        class="drac-text drac-text-lg drac-line-height drac-text-white"
-      >
-        /server
-      </p>
-      {#if option === 0}
-        <p
-          style="display: inline;"
-          class="drac-text drac-text-lg drac-line-height drac-text-white"
-        >
-          jun
-        </p>
-        <br /><br />
-      {:else if option === 1}
-        <p
-          style="display: inline;"
-          class="drac-text drac-text-lg drac-line-height drac-text-white"
-        >
-          djnacnuty
-        </p>
-        <br /><br />
-      {:else if option === 2}
-        <p
-          style="display: inline;"
-          class="drac-text drac-text-lg drac-line-height drac-text-white"
-        >
-          old
-        </p>
-        <br /><br />
-      {/if}
-      <p
-        style="display: inline; pointer-events: none; user-select: none;"
-        class="drac-text drac-text-lg drac-line-height drac-text-cyan-green"
-      >
-        Download:
-      </p>
-      {#if option === 0}
-        <p
-          style="display: inline;"
-          class="drac-text drac-text-lg drac-line-height drac-text-white"
-        >
-          neni
-        </p>
-        <br /><br />
-      {:else if option === 1}
-        <p
-          style="display: inline;"
-          class="drac-text drac-text-lg drac-line-height drac-text-white"
-        >
-          neni
-        </p>
-        <br /><br />
-      {:else if option === 2}
-        <p
-          style="display: inline;"
-          class="drac-text drac-text-lg drac-line-height drac-text-white"
-        >
-          neni
+        <a style="text-decoration: none; width:5em; height:2em; margin:1em; color:black; " href="https://mcmap1.michalhicz.eu" class="drac-btn drac-bg-cyan-green drac-btn-sm">MAPA</a>
         </p>
         <br /><br />
       {/if}

@@ -21,22 +21,14 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"prettier": "^2.8.0",
-<<<<<<< HEAD
-		"prettier-plugin-svelte": "^2.8.1",
-		"svelte": "^3.54.0",
-		"svelte-check": "^3.0.1",
-		"typescript": "^4.9.3",
-=======
 		"prettier-plugin-svelte": "^2.10.1",
 		"svelte": "^4.0.0",
 		"svelte-check": "^3.4.3",
 		"typescript": "^5.0.0",
->>>>>>> refs/remotes/origin/main
 		"vite": "^4.0.0"
 	},
 	"type": "module",
 	"dependencies": {
-		"@threlte/core": "^6.0.10",
 		"dracula-ui": "^1.0.6",
 		"install": "^0.13.0",
 		"npm": "^10.8.1",
